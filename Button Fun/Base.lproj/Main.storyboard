@@ -43,10 +43,18 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tKH-b4-p7y"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Select a Button!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4a4-0q-oWe">
+                                <rect key="frame" x="212" y="67" width="176" height="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" red="0.082173723409999996" green="1" blue="0.040631858969999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.21800622280000001" blue="0.21541471440000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.88833614846622089" blue="0.12928479737891052" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Ch4-kl-B0H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="OGd-Dn-lRt"/>
+                            <constraint firstAttribute="centerX" secondItem="4a4-0q-oWe" secondAttribute="centerX" id="Tzi-TC-3W4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="S32-56-9rr" secondAttribute="trailing" constant="32" id="UDX-vi-t6x"/>
                             <constraint firstAttribute="centerX" secondItem="V2u-qG-TkD" secondAttribute="centerX" constant="-9" id="bVy-As-b2n"/>
                             <constraint firstAttribute="centerY" secondItem="S32-56-9rr" secondAttribute="centerY" id="jdu-Ey-DDT"/>
